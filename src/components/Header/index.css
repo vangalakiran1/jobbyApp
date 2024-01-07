@@ -1,0 +1,45 @@
+.nav-bar {
+  background-color: #202020;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo-img {
+  width: 80px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  list-style: none;
+  color: white;
+  margin: 0 10px;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+.nav-link-large-device {
+  display: none;
+}
+.logout-btn {
+  background-color: #6366f1;
+  margin-top: 10px;
+  margin-left: 200px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-link-large-device {
+    display: block;
+  }
+  .nav-icon {
+    display: none;
+  }
+}

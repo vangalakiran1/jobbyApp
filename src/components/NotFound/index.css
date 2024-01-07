@@ -1,0 +1,17 @@
+.not-found-container {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.not-found-container > img {
+  margin-bottom: 30px;
+  width: 100%;
+}
